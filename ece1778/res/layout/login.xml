@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/loginText"
+        android:hint="@string/login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/loginView"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/loginView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:text="@string/login"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/passwordView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginText"
+        android:layout_centerHorizontal="true"
+        android:text="@string/password"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="fill_parent"
+        android:hint="@string/password"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordView"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/IPView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordText"
+        android:layout_centerHorizontal="true"
+        android:text="@string/IP"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/IPText"
+        android:layout_width="fill_parent"
+        android:hint="@string/IP"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IPView"
+        android:layout_centerHorizontal="true"
+        android:inputType="phone"
+        android:ems="12" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IPText"
+        android:layout_marginLeft="80dp"
+        android:text="@string/login" />
+
+    <Button
+        android:id="@+id/guestButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/loginButton"
+        android:layout_alignBottom="@+id/loginButton"
+        android:layout_marginLeft="200dp"
+        android:text="@string/guest" />
+
+    <CheckBox
+        android:id="@+id/rmbcheckBox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginButton"
+        android:text="@string/checkboxstring" />
+
+</RelativeLayout>

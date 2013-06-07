@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Single menu item
+         Set id, icon and Title for each menu item
+    -->
+    <item android:id="@+id/menu_next"
+          
+          android:title="Next" />
+ 
+    <item android:id="@+id/menu_previous"
+          
+          android:title="Previous" />
+ 
+    <item android:id="@+id/menu_search"
+          
+          android:title="Search" />
+ 
+    <item android:id="@+id/menu_ar"
+          
+          android:title="AR" />
+ 
+    <item android:id="@+id/menu_delete"
+          
+          android:title="Delete" />  
+ 
+    <item android:id="@+id/menu_preferences"
+         
+          android:title="Preferences" />
+</menu>
