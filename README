@@ -1,0 +1,7 @@
+0.This is my project for ece1778.
+1.Augmented Module is referenced from QCAR package from Vuforia
+2.Please download the QCAR package and NDK package and put them in the same folder where folder ece1778 lives
+3.The application gives a step-by-step display of components of an x3d object and an augmented module displaying such object. Yet for the augmented reality part the light source seems odd.
+4. Anyway, enjoy!
+
+--Jianwei Xu!
